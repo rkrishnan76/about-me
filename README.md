@@ -1,4 +1,6 @@
 # about-me
+I have over 18 years of experience in IT and 15+ years in Enterprise application Product Development.
+
 I am working with wd for the past 1.5 months as an engineer.  Before that I was with oracle as a hands-on manager. 
 
 In workday, we are working on a prop. Tech XO.  it is built using java and xml
@@ -9,16 +11,13 @@ The reason I am looking for change is, @ wd the development using xo is an alter
 
 The reason I switched from Oracle, I was with Oracle over 15 years.  I moved to US taking new responsibilities but before leaving oracle, I was asked to be customer escalations POC.  It was a nice role initially, but soon I was getting into a position where I was getting too far off from coding and problem solving.  So, I wanted to try new challenges instead of living in a comfort zone.
 
-
 I closely interact with PM teams and QA teams.
 
-Reason for change - I love to be hands on, but with more and more responsibilities like what I said earlier, I started feeling I am getting distanced from coding.  I have let known my management about my ambition.  I am happy with the kind of exposure I have got in doing these initiatives but my heart lies close to the technical challenges.  Inspite of all these commitments, I still work on delivering new feature release after release.
+Reason for change - I love to be hands on, but with more and more responsibilities like what I said earlier, I started feeling I am getting distanced from coding.  I have let known my management about my ambition.  I am happy with the kind of exposure I have got in doing these initiatives but my heart lies close to the technical challenges.  Inspite of all these commitments, I was still working on delivering new feature release after release.
 
 What is the most challenging work - Incentive compensation product that I work is an amazing enterprise applications.  It's different from other applications with the amount of flexibility it provides.  While that is the selling point, with each customer with the kind of implemenation, we see new challenges in making the application performant, presenting the data to the customers in meaningful way.
 
 Coming to technical details, one of the issues that we had during the development of this product is to support multi-dimension rate table.  Explain what is a multi-dimension rate table.?
-
-I have over 18 years of experience in IT and 15+ years in Enterprise application Product Development.
 
 I have played multiple roles in my 16 years of experience.  I have managed a development team, mentored new joinees, been a tech lead and most recently I have completed SCRUM Master certification and 
 playing the SCRUM Master role.
