@@ -29,3 +29,9 @@ Product managers appreciate the attention I give to the finer details of the fut
 I believe as Senior Manager, I can use all my skills to lead and motivate the team in delivering high quality solutions.
 
 Looking forward to hear from you.
+
+Biggest weakness?
+
+I would say I am working on my presentation skills as I believe there is always scope for improvement.
+
+Sometimes, I try to work on coming up with the solution for the team to implement instead of providing them the problem alone and then discuss about all the solutions.  This makes me work longer than required hours.  But I love solving complex problems which would make me work on them.  Instead of spending time thinking of providing the solution also for the team I feel I should concentrate on higher priority tasks unless the team asks for my help.
