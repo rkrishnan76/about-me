@@ -1,0 +1,35 @@
+customer class having customer details
+customer category - what benefits for each category
+car class - has information on what it offers
+carcategory - features
+rentalprice as a class - which category customer for which car category gets which car
+carreservation class
+------------------
+(8:27:50 PM) vidya.srinivasan: 1. Describe a situation when you motivated yourself to complete an assignment or task that you did not want to do.
+(8:28:24 PM) vidya.srinivasan: Why do you want to work for this organization?
+(8:28:49 PM) vidya.srinivasan: Where do you see yourself in the Workday, Inc. organization in two years?
+(8:29:05 PM) vidya.srinivasan: What is your leadership style?
+(8:29:20 PM) vidya.srinivasan: What do you expect to be doing in five years?
+(8:29:37 PM) vidya.srinivasan: What is the most competitive work situation you have experienced? How did you handle it? What was the result?
+(8:30:03 PM) vidya.srinivasan: Why did you decide to apply at Workday, Inc.?
+(8:30:18 PM) vidya.srinivasan: What do you like best about the idea of working at Workday, Inc.?
+(8:30:32 PM) vidya.srinivasan: v
+(8:30:35 PM) vidya.srinivasan: Explain how you would be an asset to this organization.
+(8:31:04 PM) vidya.srinivasan: What concerns do you have about working in this position or for this organization?
+(8:31:20 PM) vidya.srinivasan: What did you gain the most, during your time at your previous job? Be detailed.
+(8:31:37 PM) vidya.srinivasan: Why do you want to work for this organization?
+(8:31:50 PM) vidya.srinivasan: What attracted you to this company?
+(8:32:05 PM) vidya.srinivasan: If hired, how do you intend on making a difference with our company?
+(8:32:20 PM) vidya.srinivasan: Tell me about a time when you faced adversity.
+(8:32:43 PM) vidya.srinivasan: What is some work related accomplishment you are pretty proud of?
+(8:50:37 PM) vidya.srinivasan: https://www.mockquestions.com/company/Workday%2C+Inc./interview/
+(8:51:08 PM) vidya.srinivasan: Why should I hire you?
+(8:51:17 PM) vidya.srinivasan: What is your greatest weakness?
+(8:51:26 PM) vidya.srinivasan: Have you ever had a conflict with a boss or professor? How was it resolved?
+(8:51:56 PM) vidya.srinivasan: How has your education prepared you for your career?
+(8:52:04 PM) vidya.srinivasan: Are you a team player?
+(8:52:31 PM) vidya.srinivasan: If I were to ask your professors to describe you, what would they say?
+(8:52:39 PM) vidya.srinivasan: Be honest, do you really want this position? Why?
+(8:52:48 PM) vidya.srinivasan: What are your three favorite tv shows right now?
+(8:52:56 PM) vidya.srinivasan: How many nights do you go out to the bars a week?
+(8:53:11 PM) vidya.srinivasan: How many miles on average a drive a day in America?

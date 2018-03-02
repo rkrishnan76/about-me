@@ -1,0 +1,115 @@
+1. Why do you want this Senior Manager Job?
+
+I believe, I can be a good mentor for the team.  
+
+
+I love guiding team in acheiving the objectives that is part of company's goal.  In my career I have played roles both as technical manager and people manager.  As a technical manager, I help them solving problems when they need my help.  As a people manager, I understand people get motivated not only by compensation, but also when they face challenges and solve them.  So to keep the team's morale high, it is important to understand the individual's strength and weakness and help them in overcoming the weakness.
+
+Apart from this, I also interact with Director's and Vice-President where I keep them updated with the team's progress, challenges faced by team and propose possible solutions in resolving them.
+
+2. What have you learned from mistakes on the senior manager job?
+
+Initially when I got a team to lead/manage, the effort estimations were aggressive as I had assumed the skill proficiency of the junior team members / new hires would be upto the speed of a senior person.  Later I realized that the effort should be estimated based on the individual resource's strength on the job given.
+
+First impression might not be the right impression.  
+
+Initially when we report the challenges faced by team to the management I used to not think on the possible solutions.  Later on started working on presenting the issues and the possible solutions for the challenges faced.
+
+3. Challenges you are looking in the senior manager position?
+
+Keep your team happy at the same time of keeping the management happy is a challenge.
+
+Management sometimes would have ambitious goals with limited resources.  As a senior manager, I believe, I should not only motivate the team in delivering the high quality solutions on time but also keeping the management updated with the challenges faced by the team and provide them updates periodically so that they are surprised later on.  
+
+Also, interacting with the peers like QA managers, product managers, OPs teams would be equally challenging as without them the developed solutions reaches nowhere.
+Keeping QA team, Development team and product management team in the same page through out the development cycle would be the key in building solutions successfully.
+
+4. Typical work week of Senior manager?
+
+The week starts with responding to e-mails from my management and my team.
+
+At the beginning of the week we have a team meeting to get the status update on the work accomplished, challenges faced, plan for the week ahead/milestone etc.  
+
+Followed by a meeting with the management, to keep them updated with the progress and to get directions for the future.
+
+Also, a meeting with the product managers, managers/development leads regarding the features or any issues raised by the customers.
+
+Meeting with Dev managers and QA managers for understanding the QA test results and come up with the plan for reducing the no. of issues reported.  Either by adding more unit tests which developers can develop at the time of building the feature or getting the exhaustive list of system test cases from the QA which might miss the developer's radar.  QA's test cases should be reviewed by product managers and approved.
+
+Meeting with Ops team if required for getting the environments ready for the teams to develop and test.
+
+
+5.  Biggest weakness?
+
+I would say I am working on my presentation skills as I believe there is always scope for improvement.
+
+Sometimes, I try to work on coming up with the solution for the team to implement instead of providing them the problem alone and then discuss about all the solutions.  This makes me work longer than required hours.  But I love solving complex problems which would make me work on them.  Instead of spending time thinking of providing the solution also for the team I feel I should concentrate on higher priority tasks unless the team asks for my help.
+
+6.  Why should we hire you as senior manager.
+
+I have worked as a development manager for nearly 5 years and essentially performing the role of senior manager in Oracle already.
+I have not only played the role as a development manager but also as a Release manager , program manager, solution architect etc...  
+I have worked on effort estimation, resource estimation etc...
+
+7. what do you know about our company.
+
+8. any questions?
+
+I would like to know about the training programs and support by the company to encourage employees contribution to technology groups etc...
+
+
+
+How do you manage a team of developers to rollout out   software on a regular basis? 
+
+Develop a set of structured teams to support periodic cycles of software releases. Manage, rank, and priortize requirements and apply various agile developent methodologies.
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+Tell me about yourself:
+
+I completed my masters in computer applications and started my career n developing palmtop applications.
+
+In the year 2002 I started working for Oracle back in India.  I started off with bug fixing and developing small enhancements in java, jsp.  Later on started leading a team in re-writing the application in OA framework.  Guided the team in designing export / import of plan admin objects using xml.
+
+When Oracle Fusion development started, I started managing the team as a manager.  Guided the team functionally and technically in ADF.  As a manager, I get involved in requirement analysis discussion with product managers and coming up with the design solutions for the features.  I also did performance appraisal, vacation approvals, promotion recommendations, recommending performance improvement plan.
+
+Moved to US to manage the team and guide the team in release process.  Since, last one and half year, I am the Technical Architecture POC for 3 teams in CRM.  In this role I guide the team in technical architecture related tasks.
+
+In this role, I have worked with teams in guiding the fusionapps infrastructure for import and export related stuffs.  I designed proof-of-concept for collecting transaction using ODI.  I work with the central teams in rolling out the mandates.
+
+Currently I am certified scrum master.  
+
+
+1	Creational Patterns - singleton, factory 
+These design patterns provide a way to create objects while hiding the creation logic, rather than instantiating objects directly using new opreator. This gives program more flexibility in deciding which objects need to be created for a given use case.
+2	Structural Patterns - composite, facade
+These design patterns concern class and object composition. Concept of inheritance is used to compose interfaces and define ways to compose objects to obtain new functionalities.
+3	Behavioral Patterns - behavioral pattern, front controller
+These design patterns are specifically concerned with communication between objects.
+4	J2EE Patterns - 
+These design patterns are specifically concerned with the presentation tier. These patterns are identified by Sun Java Center.
+
+SOAP WS VS REST.
+
+SOAP is on top of the 
+REST returns JSON vs XML
+
+Unlike SOAP-based web services, there is no "official" standard for RESTful web APIs.[17] This is because REST is an architectural style, while SOAP is a protocol. Even though REST is not a standard per se, most RESTful implementations make use of standards such as HTTP, URI, JSON, and XML.
+
+Abstraction - hiding the implementation details from the user, only the functionality will be provided to the user. In other words user will have the information on what the object does instead of how it does it.
+
+Encapsulation To achieve encapsulation in Java Declare the variables of a class as private.  Provide public setter and getter methods to modify and view the variables values.
+
+checked exceptions - filenotfound.  unchecked exceptions wrong coding.
+Example:
+---------------------------------------
+
+My leadership style:  I consider anyone as a leader only when the person is in a position to help others and willing to help others.  So I always believe in helping the team as my high priority.  A manager is one who is able to manage multiple tasks by identifying the priority tasks which enable to achieve the management's vision.  
+
+Currently, I dont have a team directly reporting, but it is a kind of dotted line.  I am Technical Architecture POC for three products in CRM family   
+----------------------------------------------
+decorator pattern
+master slave pattern
+partition tolerance
+db sharding/horizontal partitioning
+db federation
+Atomicity, Consistency, Isolation, Durability vs basically available, soft state, eventual consistency

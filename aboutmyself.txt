@@ -1,0 +1,140 @@
+I am working for Oracle in US for the past 5 years prior to which I was in Oracle India working for the same team.
+
+I handle a team of 3 (recently a college hire quit as she got an offer from Google). Out of 3, i have 2 from mexico and one working in the same office as me.
+
+My role is to lead this 3 member team in engineering that involves new features and bug fixes.  Apart from that, I am the POC during US time for all customer escalations, technical architecture discussions with other teams, dev operational issues, SCRUM Master and other central initiatives.
+
+I closely interact with PM teams and QA teams.
+
+Reason for change - I love to be hands on, but with more and more responsibilities like what I said earlier, I started feeling I am getting distanced from coding.  I have let known my management about my ambition.  I am happy with the kind of exposure I have got in doing these initiatives but my heart lies close to the technical challenges.  Inspite of all these commitments, I still work on delivering new feature release after release.
+
+What is the most challenging work - Incentive compensation product that I work is an amazing enterprise applications.  It's different from other applications with the amount of flexibility it provides.  While that is the selling point, with each customer with the kind of implemenation, we see new challenges in making the application performant, presenting the data to the customers in meaningful way.
+
+Coming to technical details, one of the issues that we had during the development of this product is to support multi-dimension rate table.  Explain what is a multi-dimension rate table.
+
+What is the challenging work with people - I am a team player right from childhood.  Back in India cricket is a popular sport and I enjoyed playing in a team.  Apart from that I am a good chess player too.  This pretty much sums up my personality.  While I work in a team, I dont mind working individually and deliver if there is a need.  I like networking with the people @ work.
+
+Managing team is a tough art.  While I should encourage and reward the top-performer, I should motivate others to better their performance.  It is tough, since the moment you reward the top-performer with challenging work and compensation others might feel let down.  Effective way to handle that is clearly showing the road-map for every individual for their growth.
+
+Handling a senior person in the team is challenging.  But as I said earlier, having the discussion around the road-map of the career and providing visibility would clarify lot of doubts.  
+
+I provide enough visibiltiy to the team.   
+
+
+Strength  -   My strength is quick learning, analytical skills, out-of-the box thinking.  
+
+My weakness - I try to learn things that can be used in my office work.  I had narrowed down my learning to only those technologies used inside oracle.  while this is good for the team and organization, I know I would be outdated if i dont keep up pace with the market.  So I have started learning other non-work related technical and non-technical stuff.
+
+I have enrolled in learning angular js, I am dirtying my hands with python coding etc...  From my son, I am learning chess, tennis and English...
+
+One other weakness people might say is, being too considerate.  While I am workaholic I dont expect the team.  In the past I burnt out myself to meet tough deadlines when the entire team could not step-up for the tough deadline we had.
+------------------
+
+I am workaholic.  If I have a committed vacation but if there is an escalation that comes last moment, though I would come-up with the plan on how to handle during my vacation, I would not be able to spend my vacation the way I wanted as my mind would be pre-occupied.  Would not be able to take my mind off the pending work easily.  It so happened for meeting tough deadlines, I had to be with the team for more than 24 hours without break.  I realized tht it impacted the nextday productivity had impact and hence reduced such extended hours though on an average i work around 12+ hours.
+
+
+I moved here as there is more collobaration required during US time with other teams.   
+
+I am a hands-on Dev manager who loves to work in a collobarative environment.  I work with the Product managers, QA, Support and at times with the customers in helping them overcoming the issues they might face, like providing work around for show stopper issues or getting to closure of the escalations.  Lately, I have introduced customer success a topic to be discussed in team meeting.  During this, i  love to discuss some of the escalations/challenges raised by the customer and have discussion about team's thought.  This would encourage the team to be more involved as they understand how the product designed is used by an end user/customer.
+
+When I work with product managers, I use my technical and functional knowledge in incentive compensation area to give them development's perspective of providing various options in providing solutions for the business needs.  For eg., when a new feature was recently discussed to scoped in for a release, I gave them couple of options:
+1. Is to have an ETL tool for getting data into the systems.  There were adv and disadv.  Adv, easy to develop, easy for the customers to use and no worry about the size of data.  But it costs additional license costs for the customers.  Also, when it comes to cloud, the flexibility of the ETL tool had major drawbacks in integration.
+2. Is to have File based data import, with the column mappings defined during the import.
+
+With QA, I work more closely to ensure the product that is shipped is of high-quality.  For a product to be successful, QA should have deep knowledge on how the solution is designed based on which they can come up with corner scenarios to be tested which might not have been automated as part of the development.
+
+With in development team, I see my self as technical / functional guide for the team apart from being responsible for their appraisals and compensation.  I ensure the developers get an environment where they enjoy delivering the optimal/creative solutions.  I encourage innovation and creativity in the team.  
+
+I am an aggressive planner and I give estimates based on the ideal development environment.  But, I also give them the current challenges the team faces, which when removed, our delivery would be smooth.  This indirectly pushes my manager to escalate to the management about the challenges which sometimes they dont like to see for various reasons.  I have often highlighted, the development should not be considered not working at their best when the environment desired is not available.  I am very protective for my team as building a good team is the real success for my growth.  
+
+At the same time, I dont shy away in pointing to the performance to my team members.  I try to highlight their strengths and guide them in achieving the goal set for them.  I set a smart goal,
+simple, measurable, achievable, realistic, time bound.  
+
+Regarding Technical challenges, RAADIX algorithm, PARSE Implementation,  Rule based Role assignment, Status of objects   For this we could have taken the route of OBR but we built a custom solution.
+
+On this solution, for the sake of efficiency, for each and every attribute, we associate a prime no.  When we build a rule, we use this prime no. multiplied value as a compound factor.
+
+Once we have that, create indexes for the appropriate columns and then try to update the rows or create corresponding association rows.
+
+Then, completely out of my way, I did prototype on ODI for data import.  This is purely my own initiative as ODI is a proven tool when it comes to ETL and there is minimal maintenance going forward.
+
+I love problem solving and that is one reason I love to be a hands-on manager where i can come up with creative solutions like what i have mentioned earlier.
+
+I still remember my first programming challenge when I learnt basic when i was doing BSC Math and back in India that time I did not ahve computers.  I was told what a fibbanoci series was and was even given a pseudo code/flow chart to write.
+
+But I thought that book was trying to teach me various constructs and hence it was long enough.  Hence, I came up with my own pseudocode and was able to implement it hands-on the next day.
+
+so i love puzzles, problem solving, algorithms though there is not much opportunity in the current position to use algorithms but challenging problem is there.
+
+The project we are planning to uptake in the next release involves atom feeds, REST services.
+
+Scala functional programming.  
+
+Defender methods.
+
+
+
+Design patterns:
+
+My strength:
+My strength is quick learning, analytical skills.  I love Puzzle/problem solving that I believe is because of my strength in that area.  
+
+My knowledge in enterprise applications development, in crm space where we have integrations with Incentive comp.  I am very good in analytical, technical skills and functional knowledge.  When a new feature discussion happens with the pm, more often I come up with some innovative ideas that can enrich the feature.  For eg., in compensation plan we have a plan status.  When I joined Oracle this product did not have a reason why it is invalid.  Though the message is shown upfront later on the user would not know until a change was made to trigger the validation.  The solution is to store in the db.  But, we needed translated message to be done.  Here is where, I came up with the proposal of storing the message code and tokens in two columns.  While rendering the page, the tokens would be parsed to get a meaningful message.
+
+Then comes a complex problem where a multi-dimension values need to be stored in a single dimensional table.  Use the raadix algorithm.
+
+Later on we had parse implementation.
+
+My weakness:
+
+Until sometime back, my weakness was I am too considerate for my team members.  But, I have good reasons for being considerate for those who are top performers.  But, the average performers try to take advantage that caused some trouble.  I ensured, by having open discussions with the team and with 1x1 with the individual.  I publicly appreciate the good things done by the top performer but criticize the negatives in the 1x1.  Thus, a positive environment is set in the the team.  Management is also happy that things are working as per their liking.
+
+Other weakness, I can say is being workaholic.   
+
+I have worked on JAVA, SQL Data model design, SOA to little extent. Have developed REST services, where we expose the targets of a participant, salary, participant details can be updated.
+
+I am working on learning python on one side for scripting and angular on the other side to keep myself upto date on the web ui front.
+--------------------
+
+SELECT *
+FROM Employee Emp1
+WHERE (N-1) = (
+               SELECT COUNT(DISTINCT(Emp2.Salary))
+               FROM Employee Emp2
+               WHERE Emp2.Salary > Emp1.Salary
+               )
+			   
+This query returns just one of the managers if there is a tie:
+
+SELECT T2.name FROM (
+    SELECT manager_id
+    FROM table1
+    WHERE manager_id IS NOT NULL
+    GROUP BY manager_id
+    ORDER BY count(*) DESC
+    LIMIT 1
+) AS T1
+JOIN table1 AS T2
+ON T1.manager_id = T2.person_id
+Result of query:
+
+Bar
+Here's a query that fetches all managers with the tied maximum count in the case that there is a tie:
+
+SELECT name FROM (
+    SELECT manager_id, COUNT(*) AS C
+    FROM person
+    WHERE manager_id IS NOT NULL
+    GROUP BY manager_id) AS Counts
+JOIN (
+    SELECT COUNT(*) AS C
+    FROM person
+    WHERE manager_id IS NOT NULL
+    GROUP BY manager_id
+    ORDER BY COUNT(*) DESC
+    LIMIT 1
+) AS MaxCount
+ON Counts.C = MaxCount.C
+JOIN person
+ON Counts.manager_id = person.person_id
+Result of the second query:			   

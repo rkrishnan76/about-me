@@ -1,0 +1,165 @@
+cn_tp_paysheets_pvt.create_mult_worksheet_conc
+cn_tp_payruns_pvt.delete_payrun_conc
+cn_tp_payruns_pvt.update_payrun_conc
+PayPaymentBatchJob = cn_tp_payruns_pvt.pay_payrun_child
+/scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/components/incentiveCompensationEss/processes/paymentProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/paymentProcess/Jobs
+/scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/components/incentiveCompensationEss/processes/setupProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/setupProcess/Jobs
+
+<?xml version="1.0"?><job-definition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.oracle.com/scheduler" job-type="/oracle/as/ess/ext/JobType/PlsqlJobType.xml" name="CreatePaysheetChild">
+   
+   
+   
+
+
+system crashes
+system getting patched
+every exception whether retry would 
+why there cant be a common api
+
+
+
+
+<parameter-list><parameter data-type="string" name="jobDefintionName">CreatePaysheetChild</parameter><parameter data-type="string" name="SYS_procedureName">cn_tp_paysheets_pvt.create_multiple_worksheets</parameter><parameter data-type="string" name="jobDefinitionApplication">CN</parameter><parameter data-type="long" name="p_payrun_id"></parameter><parameter data-type="string" name="EXT_PortletContainerWebModule">IncentiveCompensation</parameter><parameter data-type="long" name="p_logical_batch_id"></parameter><parameter data-type="string" name="jobPackageName">/oracle/apps/ess/incentiveCompensation/cn/processes/paymentProcess</parameter><parameter data-type="long" name="p_batch_id"></parameter><parameter data-type="string" name="numberOfArgs">3</parameter>
+    <parameter name="SYS_retries" data-type="integer">5</parameter>
+  </parameter-list><display-name resource-key="JobDfName.CreatePaymentBatchCreatePaysheet">Create Payment Batch: Create Paysheet</display-name>
+<description resource-key="JobDfDesc.Subprocessusedbythecreatepaysheetjobtocr">Creates a subset of paysheets in the payment batch. The payment participant batch size value determines the subset quantity.</description>
+<resource-bundles><bundle-id>oracle/apps/ess/incentiveCompensation/cn/processes/resource/IcCnProcessTopEssBundle</bundle-id></resource-bundles>
+</job-definition>
+
+gedit CreatePaysheetChild.xml CreatePaysheetsJob.xml DeletePaymentBatchJob.xml FreezePaymentBatchJob.xml PayPaymentBatchChildJob.xml PayPaymentBatchJob.xml RefreshPaymentBatchJob.xml RefreshPaysheetChild.xml UnfreezePaymentBatchJob.xml
+
+gedit PopulateRuleHierarchyCF.xml PopulateSrpBatches.xml PopulateSrpTables.xml PublishPlanAssignmentsBatch.xml StagingTablePurge.xml SynchronizeClassificationRules.xml SynchronizeCreditRules.xml TransactionalPurge.xml &
+
+ ade co CalculateAll.xml Calculate_pvt.xml Calculation.xml Classification.xml CollectStatistics.xml CollectTxnSQL.xml Crediting.xml CreditingAndRollup.xml CurrencyRatesPlSql.xml Eligibility.xml EligibilityErrors.xml GenerateIndirectCredits.xml GenerateRollupCredits.xml GetWinners.xml RefreshStatistics.xml RevertTransactions.xml Rollup.xml SrpCollection.xml SrpGoalCollection.xml TeamRollup.xml -nc
+ 
+ 
+ 
+ cn_rs_index_creatio
+cn_tp_calculations_pvt.pkb (calculate_all_participants)
+cn_tp_calculate_txns.pkb (calculate)
+cn_tp_classification_txns.pklb (classify_txns)
+cn_tp_collect_statistics.pkb (collect_statistics)
+cn_tp_collect_txns.pkb (collect_transactions)
+cn_tp_credit_txns.pkb (generate_credits)
+cn_conv_rates_import.pkb (add_conv_rate)
+cn_tp_eligibility_pvt.pkb (eligibility)
+cn_tp_eligibility_error_pvt.pkb (eligibility_errors)
+cn_tp_indirect_credits.pkb (generate_indirect_credits)
+cn_tp_rollup_pvt.pkb (gen_rollup_credits)
+cn_rs_assign_bulk_pub.pkb (get_winners)
+cn_tp_refresh_statistics.pkb (refresh_statistics)
+cn_tp_revert_transactions.pkb (revert_transactions)
+cn_tp_rollup_txns.pkb (gen_rollup_credits)
+cn_srp_participants_update.pkb (participants_update)
+cn_srp_goals_upload.pkb (goals_upload - package needs review)
+cn_rs_rules_cf_pkg.pkb (populate_rule_hierarchy)
+cn_srp_open_periods_pvt.pkb (populate_srp_batches)
+cn_srp_comp_plans_pvt.pkb (publish_srp_plan_assign_batch  - package needs review)
+cn_tp_purge_txns.pkb (purge_staging_tbl)
+cn_rs_sync_rule_engine_pvt.pkb (gen_rule_engine)
+cn_tp_paysheets_pvt.pkb (create_multiple_worksheets)
+cn_tp_payruns_pvt.pkb (update_payrun_conc)
+cn_tp_paysheets_pvt.pkb (create_mult_worksheet_conc)
+cn_tp_payruns_pvt.pkb (delete_payrun_conc)
+cn_tp_payruns_pvt.pkb (update_payrun_conc)
+cn_tp_payruns_pvt.pkb (pay_payrun_child)
+cn_tp_payruns_pvt.pkb (pay_payrun_conc)
+cn_tp_paysheets_pvt.pkb (refresh_worksheet_parent)
+cn_tp_paysheets_pvt.pkb (refresh_worksheet_child)
+cn_tp_calculations_pvt.pkb (calculate)
+cn_tp_credit_txns.pkb (generate_credits)
+cn_srp_open_periods_pvt.pkb (populate_srp_tables)
+cn_tp_rollup_pvt.pkb (team_rollup)
+cn_tp_purge_txns.pkb (purge_transactions)
+
+------------
+cn_tp_direct_credits
+cn_tp_indirect_credits
+cn_tp_txns_util
+cn_tp_calc_subledger_pvt
+	IF SQLCODE IN (-01000, --MAXIMUM OPEN CURSORS EXCEEDED
+                   -01555, --SNAPSHOT TOO OLD: ROLLBACK SEGMENT NUMBER STRING WITH NAME "STRING" TOO SMALL
+                   -00051, --TIME-OUT OCCURRED WHILE WAITING FOR RESOURCE
+                   -00054, --RESOURCE BUSY AND ACQUIRE WITH NOWAIT SPECIFIED
+                   -00060, --DEADLOCK DETECTED WHILE WAITING FOR RESOURCE
+                   -30036, --UNABLE TO EXTEND SEGMENT BY STRING IN UNDO TABLESPACE "STRING"
+                   -04068, --EXISTING STATE OF PACKAGES STRING HAS BEEN DISCARDED
+                   -04061, --EXISTING STATE OF PACKAGE BODY HAS BEEN INVALIDATED
+                   -04065, --NOT EXECUTED, ALTERED OR DROPPED
+                   -06508,
+		   -01476) --PL/SQL: COULD NOT FIND PROGRAM UNIT BEING CALLED
+        THEN
+        	retcode := 2;
+	ELSE
+        	retcode := 3;
+	END IF;
+-------------------
+ade co   ic/cn/db/plsql/cn_conv_rates_import.pkb      ic/cn/db/plsql/cn_rs_assign_bulk_pub.pkb      ic/cn/db/plsql/cn_rs_rules_cf_pkg.pkb      ic/cn/db/plsql/cn_rs_sync_rule_engine_pvt.pkb      ic/cn/db/plsql/cn_srp_comp_plans_pvt.pkb      ic/cn/db/plsql/cn_srp_goals_upload.pkb      ic/cn/db/plsql/cn_srp_open_periods_pvt.pkb      ic/cn/db/plsql/cn_srp_participants_update.pkb      ic/cn/db/plsql/cn_tp_calculate_txns.pkb      ic/cn/db/plsql/cn_tp_calculations_pvt.pkb      ic/cn/db/plsql/cn_tp_classification_txns.pkb      ic/cn/db/plsql/cn_tp_collect_statistics.pkb      ic/cn/db/plsql/cn_tp_collect_txns.pkb      ic/cn/db/plsql/cn_tp_credit_txns.pkb      ic/cn/db/plsql/cn_tp_eligibility_error_pvt.pkb      ic/cn/db/plsql/cn_tp_eligibility_pvt.pkb      ic/cn/db/plsql/cn_tp_indirect_credits.pkb      ic/cn/db/plsql/cn_tp_payruns_pvt.pkb      ic/cn/db/plsql/cn_tp_paysheets_pvt.pkb      ic/cn/db/plsql/cn_tp_purge_txns.pkb      ic/cn/db/plsql/cn_tp_refresh_statistics.pkb      ic/cn/db/plsql/cn_tp_revert_transactions.pkb      ic/cn/db/plsql/cn_tp_rollup_pvt.pkb      ic/cn/db/plsql/cn_tp_rollup_txns.pkb -nc
+
+ade co ic/cn/db/plsql/cn_srp_participants_update.pkb ic/cn/db/plsql/cn_tp_calculate_txns.pkb ic/cn/db/plsql/cn_tp_calculations_pvt.pkb ic/cn/db/plsql/cn_tp_classification_txns.pkb ic/cn/db/plsql/cn_tp_collect_statistics.pkb ic/cn/db/plsql/cn_tp_credit_txns.pkb ic/cn/db/plsql/cn_tp_eligibility_error_pvt.pkb ic/cn/db/plsql/cn_tp_eligibility_pvt.pkb ic/cn/db/plsql/cn_tp_indirect_credits.pkb ic/cn/db/plsql/cn_tp_payruns_pvt.pkb ic/cn/db/plsql/cn_tp_paysheets_pvt.pkb ic/cn/db/plsql/cn_tp_purge_txns.pkb ic/cn/db/plsql/cn_tp_refresh_statistics.pkb ic/cn/db/plsql/cn_tp_revert_transactions.pkb ic/cn/db/plsql/cn_tp_rollup_pvt.pkb ic/cn/db/plsql/cn_tp_rollup_txns.pkb -nc
+
+ade co CN_RS_ASSIGN_RTIME_PUB.pkb CN_RS_GENRTIME_PVT.pkb cn_common_util.pkb cn_common_util_w.pkb cn_est_comp_calculate_pvt.pkb cn_est_comp_eligibility_pvt.pkb cn_est_compensation_pvt.pkb cn_expression_usg_util_pvt.pkb cn_expression_usg_util_pvt_w.pkb cn_expression_util.pkb cn_open_periods_pvt.pkb cn_partplandeploy_util_pvt.pkb cn_prd_dims_pkg.pkb cn_replicate_seed_data.pkb cn_rs_control_pvt.pkb cn_rs_cust_attr.pkb cn_rs_denorm_rules_pvt.pkb cn_rs_gen_pvt.pkb cn_rs_index_creation_pvt.pkb cn_rs_misc_utils_pvt.pkb cn_rs_rule_copy.pkb cn_rs_rule_copy_w.pkb cn_srp_assessment_pkg.pkb cn_srp_participant_asgn.pkb cn_srp_plan_deployer_pvt.pkb cn_tp_calc_util.pkb cn_tp_custom_summarize_credits.pkb cn_tp_direct_credits.pkb cn_tp_formula_gen_pkg.pkb cn_tp_mark_events_pvt.pkb cn_tp_mark_rollup_events.pkb cn_tp_mark_rule_events.pkb cn_tp_mark_rule_events_w.pkb cn_tp_participant_pay_pvt.pkb cn_tp_rollup_util.pkb cn_tp_rollup_util_w.pkb cn_tp_summarize_credits.pkb cn_tp_txns_util.pkb -nc
+
+gedit CN_RS_ASSIGN_RTIME_PUB.pkb CN_RS_GENRTIME_PVT.pkb cn_common_util.pkb cn_common_util_w.pkb cn_est_comp_calculate_pvt.pkb cn_est_comp_eligibility_pvt.pkb cn_est_compensation_pvt.pkb cn_expression_usg_util_pvt.pkb cn_expression_usg_util_pvt_w.pkb cn_expression_util.pkb cn_open_periods_pvt.pkb cn_partplandeploy_util_pvt.pkb cn_prd_dims_pkg.pkb cn_replicate_seed_data.pkb cn_rs_control_pvt.pkb cn_rs_cust_attr.pkb cn_rs_denorm_rules_pvt.pkb cn_rs_gen_pvt.pkb cn_rs_index_creation_pvt.pkb cn_rs_misc_utils_pvt.pkb cn_rs_rule_copy.pkb cn_rs_rule_copy_w.pkb cn_srp_assessment_pkg.pkb cn_srp_participant_asgn.pkb cn_srp_plan_deployer_pvt.pkb cn_tp_calc_util.pkb cn_tp_custom_summarize_credits.pkb cn_tp_direct_credits.pkb cn_tp_formula_gen_pkg.pkb cn_tp_mark_events_pvt.pkb cn_tp_mark_rollup_events.pkb cn_tp_mark_rule_events.pkb cn_tp_mark_rule_events_w.pkb cn_tp_participant_pay_pvt.pkb cn_tp_rollup_util.pkb cn_tp_rollup_util_w.pkb cn_tp_summarize_credits.pkb cn_tp_txns_util.pkb &
+
+gedit ic/cn/db/plsql/cn_conv_rates_import.pkb      ic/cn/db/plsql/cn_rs_assign_bulk_pub.pkb      ic/cn/db/plsql/cn_rs_rules_cf_pkg.pkb      ic/cn/db/plsql/cn_rs_sync_rule_engine_pvt.pkb      ic/cn/db/plsql/cn_srp_comp_plans_pvt.pkb      ic/cn/db/plsql/cn_srp_goals_upload.pkb      ic/cn/db/plsql/cn_srp_open_periods_pvt.pkb      ic/cn/db/plsql/cn_srp_participants_update.pkb      ic/cn/db/plsql/cn_tp_calculate_txns.pkb      ic/cn/db/plsql/cn_tp_calculations_pvt.pkb      ic/cn/db/plsql/cn_tp_classification_txns.pkb      ic/cn/db/plsql/cn_tp_collect_statistics.pkb      ic/cn/db/plsql/cn_tp_collect_txns.pkb      ic/cn/db/plsql/cn_tp_credit_txns.pkb      ic/cn/db/plsql/cn_tp_eligibility_error_pvt.pkb      ic/cn/db/plsql/cn_tp_eligibility_pvt.pkb      ic/cn/db/plsql/cn_tp_indirect_credits.pkb      ic/cn/db/plsql/cn_tp_payruns_pvt.pkb      ic/cn/db/plsql/cn_tp_paysheets_pvt.pkb      ic/cn/db/plsql/cn_tp_purge_txns.pkb      ic/cn/db/plsql/cn_tp_refresh_statistics.pkb      ic/cn/db/plsql/cn_tp_revert_transactions.pkb      ic/cn/db/plsql/cn_tp_rollup_pvt.pkb      ic/cn/db/plsql/cn_tp_rollup_txns.pkb &
+
+gedit rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_srp_participants_update.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_calculate_txns.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_calculations_pvt.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_classification_txns.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_collect_statistics.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_credit_txns.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_eligibility_error_pvt.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_eligibility_pvt.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_indirect_credits.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_payruns_pvt.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_paysheets_pvt.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_purge_txns.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_refresh_statistics.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_revert_transactions.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_rollup_pvt.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_rollup_txns.pkb &
+
+00000034236972873
+ade co rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_srp_participants_update.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_calculate_txns.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_calculations_pvt.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_classification_txns.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_collect_statistics.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_credit_txns.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_eligibility_error_pvt.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_eligibility_pvt.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_indirect_credits.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_payruns_pvt.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_paysheets_pvt.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_purge_txns.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_refresh_statistics.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_revert_transactions.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_rollup_pvt.pkb /scratch/rarajara/view_storage/rarajara_ess/fusionapps/ic/cn/db/plsql/cn_tp_rollup_txns.pkb -nc
+
+cn_tp_calculations_pvt.pkb (calculate_all_participants)
+cn_tp_calculate_txns.pkb (calculate)
+cn_tp_classification_txns.pklb (classify_txns)
+cn_tp_collect_statistics.pkb (collect_statistics)
+cn_tp_collect_txns.pkb (collect_transactions)
+cn_tp_credit_txns.pkb (generate_credits)
+cn_tp_eligibility_pvt.pkb (eligibility)
+cn_tp_eligibility_error_pvt.pkb (eligibility_errors)
+cn_tp_indirect_credits.pkb (generate_indirect_credits)
+cn_tp_rollup_pvt.pkb (gen_rollup_credits)
+cn_tp_refresh_statistics.pkb (refresh_statistics)
+cn_tp_revert_transactions.pkb (revert_transactions)
+cn_tp_rollup_txns.pkb (gen_rollup_credits)
+cn_srp_participants_update.pkb (participants_update)
+cn_tp_purge_txns.pkb (purge_staging_tbl)
+cn_tp_paysheets_pvt.pkb (create_multiple_worksheets)
+cn_tp_payruns_pvt.pkb (update_payrun_conc)
+cn_tp_paysheets_pvt.pkb (create_mult_worksheet_conc)
+cn_tp_payruns_pvt.pkb (delete_payrun_conc)
+cn_tp_payruns_pvt.pkb (update_payrun_conc)
+cn_tp_payruns_pvt.pkb (pay_payrun_child)
+cn_tp_payruns_pvt.pkb (pay_payrun_conc)
+cn_tp_paysheets_pvt.pkb (refresh_worksheet_parent)
+cn_tp_paysheets_pvt.pkb (refresh_worksheet_child)
+cn_tp_calculations_pvt.pkb (calculate)
+cn_tp_credit_txns.pkb (generate_credits)
+cn_srp_open_periods_pvt.pkb (populate_srp_tables)
+cn_tp_rollup_pvt.pkb (team_rollup)
+cn_tp_purge_txns.pkb (purge_transactions)
+
+
+ade co /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/paymentProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/paymentProcess/Jobs/CreatePaysheetChild.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/paymentProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/paymentProcess/Jobs/CreatePaysheetsJob.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/paymentProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/paymentProcess/Jobs/DeletePaymentBatchJob.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/paymentProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/paymentProcess/Jobs/FreezePaymentBatchJob.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/paymentProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/paymentProcess/Jobs/PayPaymentBatchChildJob.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/paymentProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/paymentProcess/Jobs/PayPaymentBatchJob.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/paymentProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/paymentProcess/Jobs/RefreshPaymentBatchJob.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/paymentProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/paymentProcess/Jobs/RefreshPaysheetChild.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/paymentProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/paymentProcess/Jobs/UnfreezePaymentBatchJob.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/setupProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/setupProcess/Jobs/CreditRuleImport.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/setupProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/setupProcess/Jobs/PopulateRuleHierarchyCF.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/setupProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/setupProcess/Jobs/PopulateSrpBatches.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/setupProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/setupProcess/Jobs/PopulateSrpTables.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/setupProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/setupProcess/Jobs/PublishPlanAssignmentsBatch.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/setupProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/setupProcess/Jobs/SynchronizeClassificationRules.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/setupProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/setupProcess/Jobs/SynchronizeCreditRules.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/setupProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/setupProcess/Jobs/TransactionalPurge.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/transactionProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/transactionProcess/Jobs/CalculateAll.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/transactionProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/transactionProcess/Jobs/Calculation.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/transactionProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/transactionProcess/Jobs/Classification.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/transactionProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/transactionProcess/Jobs/CollectStatistics.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/transactionProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/transactionProcess/Jobs/CollectTxnSQL.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/transactionProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/transactionProcess/Jobs/Crediting.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/transactionProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/transactionProcess/Jobs/CreditingAndRollup.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/transactionProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/transactionProcess/Jobs/RefreshStatistics.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/transactionProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/transactionProcess/Jobs/RevertTransactions.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/transactionProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/transactionProcess/Jobs/Rollup.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/transactionProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/transactionProcess/Jobs/SrpCollection.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/transactionProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/transactionProcess/Jobs/SrpGoalCollection.xml /scratch/rarajara/view_storage/rarajara_lkup/fusionapps/ic/components/incentiveCompensationEss/processes/transactionProcess/ess/essmeta/oracle/apps/ess/incentiveCompensation/cn/processes/transactionProcess/Jobs/TxnInterfaceLoader.xml 
+
+
+public static void removeDuplicates(char[] str) {
+if (str == null) return;
+int len = str.length;
+if (len < 2) return;
+
+int tail = 1;
+
+for (int i = 1; i < len; ++i) {
+int j;
+ for (j = 0; j < tail; ++j) {
+ if (str[i] == str[j]) break;
+ }
+ if (j == tail) {
+ str[tail] = str[i];
+ ++tail;
+ }
+ }
+ str[tail] = 0;
+ }
+ 

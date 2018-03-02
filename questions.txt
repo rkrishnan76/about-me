@@ -1,0 +1,109 @@
+Why workday?
+------------
+Workday is the market leader in HCM and fin cloud applications.  My ex-colleague is working for Workdays and he is pretty happy with the company's culture that supports learning and development on the job – and really rewards hard work.
+Founders of Workdays inspires me as they have repeated success two out of two.  First with Peoplesoft and later on with Workdays.
+
+------------
+Why this job?
+------------
+I feel that my proven track record leading and mentoring team makes me an excellent match for the job requirements. Also, the role excites me because I love the idea of developing something completely on OOPS concepts without the team getting involved in UI design which is really a MVC architecture where a model guy does not require to know how the UI is designed.  But hardly this has been the case.
+
+I am also excited to read about Workday Next.
+------------
+what challenges you are looking for?
+
+I understand that challenges are part and parcel of the job requirement that I am aiming for. I am actually looking for jobs that would challenge me on a professional basis, so that I can enhance my skills/abilities in order to add more value to the product.
+
+-------------------
+How Do You Evaluate Success?
+Based on smart goal.
+I evaluate success based on how the contribution of a person helps in achieving the company's goal.  Not only that, how it helps the person in achieving his goals.
+SPECIFIC
+MEASURABLE
+Achievable
+Relevant
+Time-Based
+-------------------
+How Will You Achieve Your Goals?
+I plan on gaining additional skills by taking related classes and continuing my involvement with a variety of professional associations.
+
+I noticed that Workday provides in-house training for employees and I would certainly be interested in taking classes that would be relevant.  Also, I workday next which is exciting.
+-------------------
+Describe How You Managed a Problem Employee
+
+Discuss Improvement Plans involving HR
+-------------------
+How Do You Handle Stress/Pressure?
+
+We had a release which was a tough deadline to achieve.  I had a young team to achieve.  I believe I handled pretty well by planning it and motivating the team in putting in the extra effort that was required and compensating them.  I believe in work hard and play hard.  Once you are done with your work, i make sure people enjoy what they have done by going out for a small outing.
+-------------------
+
+-----------------
+Do you prefer to work independently or on a team?
+
+I am a very good team player.  When required I was able to deliver as an individual contributor in delivering an enhancement.
+cricket player and a good chess player.
+-----------------
+Strength
+
+Planning, analytical skills, out-of-box thinking, keenness in showing attention to finer details and Communication.
+-----------------
+Weakness
+
+At times, when there is an escalated issue I try to work and fix it myself instead of delegating.  My manager sometimes keeps reminding that he did not expect me to work on it. it does not mean i would skip on a priority task.
+
+Also, earlier on, I used to take more time on doubly confirming before updating my manager.  Of-late, I understand it is important to keep the immediate manager updated on intermediate findings.
+-----------------
+How Do You Handle it if the Boss is Wrong?
+
+Learnt not to tell the manager is wrong.  Better than that is put in the extra effor that is required to substantiate my reasoning with facts using experience in the past.
+-----------------
+My goal:
+
+First step on hiring is to be getting familiarised with the process, technology, culture etc...
+
+Once I understand based on the challenges I face, I might be able to come up with a long-term goal.
+
+-----------------
+motivating team:
+
+recognizing the team
+consistent feedback
+-----------------
+What Do People Most Often Criticize About You?
+ trying to be more perfectonist.  people report to be might criticize i am trying to be too perfectonist.  first time right culture.
+
+1. Describe a situation when you motivated yourself to complete an assignment or task that you did not want to do.
+
+I was asked to be a release manager though I was happy as a development manager.  But on becoming a release manager, I saw things that could be automated and I questioned myself what tool would make the developer's productive.
+
+Where do you see yourself in the Workday, Inc. organization in two years?
+
+I have worked in release management, development and had little experience in QA automation.  I had even suggested some features for the PMs to think about.
+So, in the overall scheme of things I understand all the moving parts of the product development life cycle.  Today I might start with a smaller team.  In two years from now, I believe, I can lead larger team across dev, QA and release management.
+
+My leadership style?
+I trust I have a team of professionals and I let them know what is expected of them.  Also, I let them take their own decisions on solving a problem unless they need my help.  When it comes to designing a solution, I try to keep the session as a brainstorming session.  By the end of it, I want everyone in the team feel that the solution decided upon is the right solution irrespective who proposed it.  It should be seen as a team decision.
+-----------------
+
+Why are you looking for a change?
+
+I’ve enjoyed working with a great group of people, but…
+I’ve learned a great deal in my current job, but…
+It’s been a great experience, but…
+With ADF you could say I got comfortable in designing the solutions.  I am looking for fresh challenges and working on the new technology would g
+
+----------------------
+what challenges you are looking for?
+
+I understand that challenges are part and parcel of the job requirement that I am aiming for. I am actually looking for jobs that would challenge me on a professional basis, so that I can enhance my skills/abilities in order to add more value to the product.
+------------
+What did you gain the most, during your time at your previous job? Be detailed.
+The most i gained in my current job is the complete understanding of product development life cycle which is different from services in many ways.
+---------
+decorator pattern
+master slave pattern
+partition tolerance
+db sharding/horizontal partitioning
+db federation
+Atomicity, Consistency, Isolation, Durability vs basically available, soft state, eventual consistency
