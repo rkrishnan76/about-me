@@ -30,6 +30,8 @@ I believe as Senior Manager, I can use all my skills to lead and motivate the te
 
 Looking forward to hear from you.
 
+Strength  -   My strength is quick learning, analytical skills, out-of-the box thinking.  
+
 Biggest weakness?
 
 I would say I am working on my presentation skills as I believe there is always scope for improvement.
